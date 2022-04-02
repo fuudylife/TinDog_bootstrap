@@ -10,6 +10,15 @@ h1 {
     line-height: 1.5;
 }
 
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+p {
+    color: #8f8f8f;
+}
+
 /* Title */
 #title {
     background-color: #ff4c68;
@@ -62,39 +71,20 @@ h1 {
 /* Features */
 
 #features {
-    text-align: center;
-    margin: 10% auto;
-}
-
-.second-container {
-    padding: 0 15%;
-}
-
-.feature-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-}
-
-.feature-p {
-    color: #8f8f8f;
+    padding: 7% 15%;
 }
 
 .featurs-icon {
     color: #ef8172;
-    
+    margin-bottom: 1rem;
+}
+
+.featurs-icon:hover {
+    color: #ff4c68;
 }
 
 .feature-block {
-    padding: 3rem 2.5rem;
+    text-align: center;
+    padding: 5%;
 }
 
-.fa-heart:hover {
-    color: #ff4c68;
-}
-.fa-bullseye:hover {
-    color: #ff4c68;
-}
-.fa-circle-check:hover {
-    color: #ff4c68;
-}
