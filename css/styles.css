@@ -127,6 +127,11 @@ p {
 
 /* Price */
 
-.price-card {
+#pricing {
+    padding: 100px;
     text-align: center;
+}
+
+.price-card {
+    padding: 3% 2%;
 }
