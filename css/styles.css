@@ -29,7 +29,6 @@ p {
 /* Title */
 #title {
     background-color: #ff4c68;
-    height: 700px;
     color: #fff;
 }
 
@@ -141,4 +140,16 @@ p {
 
 .price-card {
     padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+
+    #title {
+        text-align: center;
+    }
+
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
 }
